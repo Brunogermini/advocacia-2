@@ -229,6 +229,7 @@ label {
     height: 0px;
     border-radius: 0px 0px 4px 4px;
     visibility: hidden;
+    overflow-y: hidden;
     
   }
 
@@ -248,7 +249,7 @@ label {
     padding: 0px;
     padding-top: 20px;
     padding-bottom: 240px;
-    opacity: 1;
+    opacity:1;
 
   }
 }
