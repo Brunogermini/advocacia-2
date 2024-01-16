@@ -227,15 +227,17 @@ label {
     transition: 0.6s;
     z-index: 1000;
     height: 0px;
+    z-index: 10000;
     border-radius: 0px 0px 4px 4px;
     visibility: hidden;
     overflow-y: hidden;
+     
   }
 
   .nav-bar.ativo .menu {
     height: 34vh;
     visibility: visible;
-    z-index: 1000;
+   
   }
 
   .menu li {
