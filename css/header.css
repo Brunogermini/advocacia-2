@@ -225,19 +225,16 @@ label {
     width: 60%;
     background: rgb(189, 188, 188, 0.8);
     transition: 0.6s;
-    z-index: 1000;
-    height: 0px;
     z-index: 10000;
+    height: 0px;
     border-radius: 0px 0px 4px 4px;
     visibility: hidden;
     
-     
   }
 
   .nav-bar.ativo .menu {
-    height: 43vh;
+    height: 300px;
     visibility: visible;
-   
   }
 
   .menu li {
@@ -250,8 +247,8 @@ label {
     width: 100%;
     padding: 0px;
     padding-top: 20px;
-    padding-bottom: 250px;
-    opacity: 0.7;
+    padding-bottom: 240px;
+    opacity: 1;
 
   }
 }
