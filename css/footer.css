@@ -51,6 +51,7 @@ li {
 #contato-container {
   margin-top: 1rem;
   text-align: center;
+  display: block;
 }
 #contato-container h3 {
   margin-top: 5px;
@@ -60,7 +61,23 @@ li {
  
 }
 .contato-lista li {
-  margin-bottom: 10px;
+ line-height: 1.4;
+ font-family: Arial, Helvetica, sans-serif;
+  margin-top: 5px;
+
+}
+.contato-lista a{
+  display: block;
+  margin-top: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contato-lista,
+.areas_atuacao  {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
 }
 .contato-lista h3 {
   font-family: "Volkorn";

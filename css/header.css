@@ -49,10 +49,7 @@
 }
 
 .img-fundo-logo {
-  position: absolute;
-  top: 60px;
-  right: 108px;
-  max-width: 202px;
+display: none;
 }
 
 form {
@@ -161,6 +158,7 @@ label {
 @media (max-width: 1078px) {
   .img-fundo-logo {
     position: absolute;
+    display: block;
     left: 50%;
     margin-left: -50px;
     width: 100px;
@@ -168,7 +166,7 @@ label {
   }
 
   .img-fundo {
-    opacity: 0.2;
+    opacity: 0.6;
     width: 100%;
     height: 80vh;
   }
@@ -250,10 +248,8 @@ label {
     padding: 0px;
     padding-top: 20px;
     padding-bottom: 200px;
-    opacity: 0.4;
-    z-index: 1;
-    background-color: red;
-    
+    opacity: 0.7;
+
   }
 }
 
