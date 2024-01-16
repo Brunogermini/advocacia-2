@@ -48,11 +48,11 @@ li {
 .logo-footer {
   width: 3vw;
 }
-.contato-container {
+#contato-container {
   margin-top: 1rem;
   text-align: center;
 }
-.contato-container h3 {
+#contato-container h3 {
   margin-top: 5px;
 }
 .contato-lista {
@@ -88,7 +88,7 @@ li {
     grid-area: links;
   }
 
-  .contato-container {
+  #contato-container {
     grid-area: contato;
   }
 

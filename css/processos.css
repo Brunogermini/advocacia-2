@@ -39,7 +39,7 @@ header {
   justify-content: space-around;
   gap: 20px;
   max-width: 100%;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(145, 145, 145, 0.6);
   color: white;
   align-items: center;
 }
@@ -206,7 +206,7 @@ label {
       .menu {
         display: block;
         position: absolute;
-        top: 129px;
+        top: 130px;
         width: 60%;
         background: rgb(189, 188, 188, 0.8);
         transition: 0.6s;
@@ -218,7 +218,7 @@ label {
       }
 
   .nav-bar.ativo .menu {
-    height: 15vh;
+    height: 18vh;
     visibility: visible;
   }
   .menu li + li {
@@ -334,14 +334,17 @@ li {
 .logo-footer {
   width: 3vw;
 }
-.contato-container {
+#contato-container {
   margin-top: 1rem;
   text-align: center;
 }
 
-.contato-lista {
+.contato-lista,
+.areas_atuacao  {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   text-align: center;
-  text-align: left;
 }
 .contato-lista li {
   margin-bottom: 10px;
@@ -374,7 +377,7 @@ li {
     grid-area: links;
   }
 
-  .contato-container {
+  #contato-container {
     grid-area: contato;
   }
 
@@ -421,9 +424,10 @@ li {
 
   .container-footer {
     grid-template-areas:
-      "logo logo"
-      "links contato"
-      "mapa mapa";
+      "logo"
+      "links"
+      "contato"
+      "mapa";
 
     padding: 0px 16px;
   }
