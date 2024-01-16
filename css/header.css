@@ -235,6 +235,7 @@ label {
   .nav-bar.ativo .menu {
     height: 30vh;
     visibility: visible;
+    z-index: 1000;
   }
 
   .menu li {
