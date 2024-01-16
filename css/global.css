@@ -1,0 +1,79 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    
+}
+a{
+    color: white;
+}
+html {
+    scroll-behavior: smooth
+}
+
+main {
+    margin-bottom: 5vw;
+    width: 100%;
+}
+
+h3,
+p {
+    font-family: "Volkorn";
+    margin: 0px;
+    padding: 0px;
+}
+
+.mapa{
+    
+    padding-top: 20px;
+}
+body{
+    overflow-x: hidden;
+    font-family: "Volkorn";
+    position: relative;
+    background: linear-gradient(to bottom, rgba(62,69,81,.3), rgba(0,0,0,0.7));
+  
+}
+
+.btn-whatsapp {
+    position: fixed;
+    bottom: 15px;
+    right: 0px;
+    z-index: 99;
+  }
+  .btn-whatsapp img {
+    max-width: 50px;
+    transition: transform 1.4S;
+  }
+  .btn-whatsapp img:hover {
+    transform: scale(1.1);
+  }
+  
+  .btn-whatsapp .tooltip-text {
+    visibility: hidden;
+    position: absolute;
+    width: 120px;
+    top: 8px;
+    left: -144px;
+    padding: 6px;
+    border-radius: 4px;
+    text-align: center;
+    background-color: #232224;
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .btn-whatsapp:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  @media screen and (max-width: 768px) {
+    body{
+      max-width: 100%;
+    }
+    .btn-whatsapp img {
+      width: 47px;
+
+    }
+  }

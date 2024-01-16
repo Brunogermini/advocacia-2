@@ -1,0 +1,164 @@
+.imagem-item {
+    width: 18vw;
+    color: white;
+    border-radius: 5px;
+}
+
+.imagem-item img {
+    width: 300px;
+}
+
+.container-itens {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    padding: 5px 20px;
+    margin-top: 1rem;
+
+    /* background: linear-gradient(to bottom,#ebebf0a5, #FFF );  */
+
+
+}
+
+.container-itens h2 {
+    margin-bottom: 20px;
+    display: grid;
+    grid-column: -1/1;
+    font-size: 'Volkorn';
+    font-weight: bold;
+    font-size: 2rem;
+    color: #e8e8e8;
+
+
+}
+
+.container-itens span {
+    display: grid;
+    grid-column: -1/1;
+    font-size: 'Volkorn';
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    color: #c0c0c0;
+}
+
+.item h3 {
+    font-size: 1.25rem;
+    font-size: 'Volkorn';
+    font-weight: bold;
+    color: #696969;
+
+}
+
+.lista-atuacao {
+    padding: 15px;
+    line-height: 1.5;
+    text-align: left;
+    font-size: 1.12rem;
+    font-size: 'Volkorn';
+    color: #9c9c9c;
+
+}
+
+.lista-atuacao li {
+    list-style: circle;
+}
+
+.item {
+    background: #FFF;
+    border-radius: 5px;
+    padding: 20px 15px;
+    margin-bottom: 15px;
+
+}
+
+.botao_atuacao {
+    margin-top: 2rem;
+    justify-items: center;
+}
+
+
+.areas_atuacao li {
+    line-height: 1.6;
+}
+
+
+.direitos {
+    text-align: center;
+    background: #000;
+    color: #FFF;
+}
+
+.links a {
+    color: white;
+}
+
+.foto-cabecalho {
+    width: 100%;
+    height: 20vh;
+
+}
+
+.img-logo {
+    width: 15vw;
+}
+
+
+.titulo {
+    text-align: center;
+    margin: 3rem 0px;
+}
+
+.container-especialidades {
+    width: 1200px;
+    margin: auto;
+
+}
+
+.itens-especialidades {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.item {
+    justify-self: center;
+}
+
+
+@media (max-width: 1078px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .container-itens {
+        grid-template-columns: 500px 500px;
+
+    }
+}
+
+@media (max-width:828px) {
+
+    .container-itens {
+
+        grid-template-columns: 1fr;
+    }
+
+    .item {
+
+        width: 300px;
+
+    }
+
+    .item img {
+        width: 100%;
+    }
+
+    .item p {
+        text-align: center;
+    }
+}

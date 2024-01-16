@@ -1,0 +1,105 @@
+.container-footer {
+  display: grid;
+  grid-template-areas: "logo links  mapa contato";
+  justify-items: center;
+  gap: 0.5rem;
+
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: white;
+  margin-top: 30px;
+  max-width: 100%;
+  padding-bottom: 20px;
+  background: rgba(0, 0, 0, 0.3);
+}
+iframe {
+  max-width: 100%;
+}
+.mapa-endereco {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.areas_atuacao h3 {
+  font-size: 16px;
+}
+.logo {
+  justify-items: center;
+  margin-top: 1rem;
+}
+
+.rodape li {
+  margin-bottom: 1rem;
+}
+
+.links {
+  margin-top: 1rem;
+  cursor: default;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.logo-footer {
+  width: 3vw;
+}
+.contato-container {
+  margin-top: 1rem;
+  text-align: center;
+}
+.contato-container h3 {
+  margin-top: 5px;
+}
+.contato-lista {
+  text-align: center;
+ 
+}
+.contato-lista li {
+  margin-bottom: 10px;
+}
+.contato-lista h3 {
+  font-family: "Volkorn";
+  font-size: 16px;
+  text-align: center;
+}
+@media (max-width: 800px) {
+  .container-footer {
+    grid-template-areas:
+      "logo logo"
+      "links links"
+      "contato contato"
+      "mapa mapa";
+  }
+
+  .container-footer h3 {
+    margin-bottom: 10px;
+  }
+  .info-rodape {
+    grid-area: logo;
+  }
+
+  .links {
+    text-align: center;
+    grid-area: links;
+  }
+
+  .contato-container {
+    grid-area: contato;
+  }
+
+  .mapa {
+    grid-area: mapa;
+  }
+
+  iframe {
+    grid-column: 1/-1;
+  }
+  .img-logo {
+    width: 25vw;
+  }
+}
