@@ -293,40 +293,7 @@ iframe {
   width: 15vw;
 }
 
-@media (max-width: 800px) {
-  .container-footer {
-    grid-template-areas:
-      "logo logo"
-      "links contato"
-      "mapa mapa";
-  }
 
-  .container-footer h3 {
-    margin-bottom: 10px;
-  }
-  .info-rodape {
-    grid-area: logo;
-  }
-
-  .links {
-    grid-area: links;
-  }
-
-  #contato-container {
-    grid-area: contato;
-  }
-
-  .mapa {
-    grid-area: mapa;
-  }
-
-  iframe {
-    grid-column: 1/-1;
-  }
-  .img-logo {
-    width: 25vw;
-  }
-}
 
 @media (max-width: 1078px) {
   body {
@@ -347,8 +314,9 @@ iframe {
     padding: 0px;
   }
 
-  .container-itens {
+  .container-itens-consulta {
     grid-template-columns: 1fr;
+    justify-content: center;
   }
 
   .item {
@@ -384,5 +352,39 @@ iframe {
     justify-content: space-around;
     width: 100%;
     overflow: hidden;
+  }
+}
+@media (max-width: 800px) {
+  .container-footer {
+    grid-template-areas:
+      "logo logo"
+      "links contato"
+      "mapa mapa";
+  }
+
+  .container-footer h3 {
+    margin-bottom: 10px;
+  }
+  .info-rodape {
+    grid-area: logo;
+  }
+
+  .links {
+    grid-area: links;
+  }
+
+  #contato-container {
+    grid-area: contato;
+  }
+
+  .mapa {
+    grid-area: mapa;
+  }
+
+  iframe {
+    grid-column: 1/-1;
+  }
+  .img-logo {
+    width: 25vw;
   }
 }
